@@ -59,7 +59,7 @@ body{
 
 }
 .button-task-add:hover{
-    background-color: rgba(173, 132, 99, 0.53);
+    background-color: rgba(177, 25, 20, 0.53);
     color: #ffffff;
 }
 /*container da lista de tarefas */
@@ -72,6 +72,28 @@ body{
     width: 100%;
 
 }
+
+
+.task-item{
+    display: flex; /* texto lado a lado com icone*/
+    justify-content: space-between; /*separa os itens justificados em seus extremos*/
+    align-items: center; /*alinhando verticalmente com o centro*/
+    margin-bottom: 10px; /* separando cada tarefa da lista*/
+
+}
+
+.task-item i { /* estilizando o botao de excluir tarefa*/
+background-color: #756de7;  /* cor de fundo do botao*/
+color: #ffffff;             /*cor do icone*/
+padding: 12px;                /*desenho do quadrado do botao*/
+border-radius: 100%;          /* arredondando a borda do botao*/
+}
+
+.task-item i:hover{
+    background-color: rgba(177, 25, 20, 0.53);
+    color: #ffffff;
+}
+
 /* UTILITARIOS*/
 
 .error{

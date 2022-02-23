@@ -31,6 +31,8 @@ const handleAddtask = () => {
     taskItemContainer.appendChild(deleteItem);
 
     taskContainer.appendChild(taskItemContainer);
+
+    inputElement.value = "";                                        // limpa o inputElemente depois de adicionar tarefa
 };
 
 const handleInputChange = () =>{
